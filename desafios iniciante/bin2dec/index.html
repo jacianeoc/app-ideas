@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bin2Dec</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    </head>
+    <body>
+        <div id="grad">
+            <h2>Bin2Dec</h2>
+            <div class="container">
+                <div id="select-type">
+                    <select  id="typeConversion">
+                        <option value="" >--Convert to--</option>
+                        <option value="Binary">Binary</option>
+                        <option value="Decimal">Decimal</option>
+                        
+                    </select>
+                </div>
+
+                <form id="formulario">
+                    <p>Number:</p>
+                    <input type="text" id="campo" class="border input-number">
+                    <input type="submit" value="Convert" class="buttom">
+                </form>
+                <div id="out-result">
+                    <p>Ans:</p>
+                    <input type="text" id="result" class="form-control border " placeholder="0" disabled="disabled" />
+                
+                </div>
+                
+            </div>
+            
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
